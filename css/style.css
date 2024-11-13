@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/*HEADER*/
+header {
+    padding: 15px 0 30px 0;
+}
+
+nav {
+    width: 900px;
+    color: black;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-family: "Lora", serif;
+}
+
+.hojita-logo {
+    width: 30px;
+    height: 30px;
+    background-color: #00BCB3;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+#search {
+    width: 600px;
+    height: 30px;
+    background-color: #F4F4F4;
+    border: 1px solid #959595;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.lupa {
+    width: 25px;
+}
+
+.search-button {
+    background-color: #F4F4F4;
+    border: 1px solid #959595;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.sign-carri a {
+    text-decoration: none;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: black;
+}
+
+.sign-carri a img {
+    width: 27px;
+    margin-left: 15px;
+}
+
+.menu {
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 4px solid black;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul li , .menu ul li a{
+    color: black;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+/*SECTION1*/
+#section1 {
+    width: 900px;
+    margin: 0 auto;
+    font-family: "Montserrat", sans-serif;
+}
+
+.parrafo1 {
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.div-contenedor {
+    width: 900px;
+    height: 293.6px;
+    margin: 0 auto;
+    display: flex;
+    gap: 2%;
+}
+
+.div-discover {
+    flex: 2;
+    display: flex;
+}
+
+.disc1 {
+    flex: 1;
+    background-color: #00BCB3;
+    align-items: center;
+}
+
+.disc1 p {
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    margin: 30px;
+}
+
+.disc1 p img {
+    width: 35px;
+}
+
+.disc2 {
+    flex: 1;
+}
+
+.disc2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.div-aloe {
+    flex: 1;
+    display: flex;
+    gap: 6%;
+    flex-direction: column;
+}
+
+.aloe1 {
+    flex: 2;
+}
+
+.aloe1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.aloe2 {
+    flex: 1;
+    align-content: center;
+    background-color: #00BCB3;
+}
+
+.aloe2 p {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 30px;
+    color: white;
+}
+
+.aloe2 img {
+    width: 25px;
+}
+
+/*SECTION2*/
+.section2 {
+    width: 900px;
+    height: 240px;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    margin-top: 20px;
+    background-color: #ADEBE8;
+}
+
+.section2 div {
+    flex: 1;
+}
+
+.section2 div img {
+    margin-top: 40px;
+    width: 130px;
+    border-radius: 50%;
+}
+
+.section2 div p {
+    margin-top: 20px;
+}
+
+/*FOOTER*/
+footer {
+    position: fixed;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    width: 100%;
+    bottom: 0;
+}
+
+.galleta {
+    width: 900px;
+    margin: 0 auto;
+    background-color: #FEFEFE;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.galleta p {
+    width: 650px;
+}
+
+footer button {
+    padding: 10px 15px;
+    background-color: #00BCB3;
+    box-shadow: 4px 4px 4px black;
+}

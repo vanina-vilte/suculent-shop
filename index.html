@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Succulent Shop</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="img/leaf.png" alt="logo" class="hojita-logo">
+                <h1>EasyBay</h1>
+            </div>
+            <div class="buscador">
+                <form action="#">
+                    <div class="search-container">
+                        <input type="search" name="search" id="search" placeholder="Search for anything">
+                        <button type="submit" class="search-button">
+                            <img src="img/search-dark.png" alt="lupa" class="lupa">
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <div class="sign-carri">
+                <a href="#">Sign In</a>
+                <a href="#" onclick="alerta()">
+                    <img src="img/cart-dark.png" alt="">
+                </a>
+            </div>
+        </nav>
+        <div class="menu">
+            <ul>
+                <li><a href="#">Aeonium</a></li>
+                <li><a href="#">Andormischus</a></li>
+                <li><a href="#">Agave</a></li>
+                <li><a href="#">Aloe</a></li>
+                <li><a href="#">Anacampseros</a></li>
+                <li><a href="#">Aristaloe</a></li>
+                <li><a href="#">More...</a></li>
+            </ul>
+        </div>
+    </header>
+    <section id="section1">
+        <p class="parrafo1">Your Source for Serious Succulent Specialties</p>
+        <div class="div-contenedor">
+            <div class="div-discover">
+                <div class="disc1">
+                    <p>Discover succ- <br> ulent varieties one pot or rack at a time!</p>
+                    <p>Discover <img src="img/arrow-light.png" alt="flecha"></p>
+                </div>
+                <div class="disc2">
+                    <img src="img/succulents-1.jpg" alt="suculentas" onmouseover="cambiarImg(this)" onmouseout="regresarImg(this)">
+                </div>
+            </div>
+            <div class="div-aloe">
+                <div class="aloe1">
+                    <img src="img/aloe-m.jpg" alt="aloe">
+                </div>
+                <div class="aloe2">
+                    <p>Soothing aloe <img src="img/arrow-light.png" alt="flecha"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section2">
+        <div>
+            <img src="img/aeonium-s.jpg" alt="aeonium">
+            <p>Aeonium</p>
+        </div>
+        <div>
+            <img src="img/aloe-s.jpg" alt="aloe">
+            <p>Aloe</p>
+        </div>
+        <div>
+            <img src="img/cactus-s.jpg" alt="cactus">
+            <p>Cactus</p>
+        </div>
+        <div>
+            <img src="img/echeveria-s.jpg" alt="echeveria">
+            <p>Echeveria</p>
+        </div>
+        <div>
+            <img src="img/sedum-s.jpg" alt="sedum">
+            <p>Sedum</p>
+        </div>
+        <div>
+            <img src="img/sempervivum-s.jpg" alt="sempervivum">
+            <p>Sempervivum</p>
+        </div>
+    </section>
+    <footer>
+        <div class="galleta">
+            <img src="img/alert-dark.png" alt="alerta">
+            <div>
+                <p>This site makes use of third-party cookies, by clicking "I accept" you agree to the terms outlined in our <a href="#">cookie policy</a></p>
+            </div>
+            <button onclick="eliminarCookie()">I accept</button>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
